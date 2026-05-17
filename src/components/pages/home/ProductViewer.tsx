@@ -14,7 +14,7 @@ export default function ProductViewer() {
             <h2>Tack a closer look.</h2>
             <div className="controls ">
                 <p className="info">MackbookPro 16&quot; in Selver / Space Black</p>
-                <div className="flex-center gap-5 mt-5">
+                <div className="flex-center gap-5 mt-5 z-40!">
                     <div className="color-control">
                         <div
                             onClick={() => setColor('#adb5bd')}

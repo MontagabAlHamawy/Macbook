@@ -15,7 +15,7 @@
   --color-dark-100: #86868b;
   --color-dark-200: #2e2e30;
   --color-light-100: #adb5bd;
-  --font-roboto: var(--font-roboto);
+  --font-nunito: var(--font-nunito);
 }
 
 * {
@@ -33,7 +33,7 @@ body {
   overflow-x: hidden;
   background-color: #000;
   color: var(--color-dark-100);
-  font-family: var(--font-roboto);
+  font-family: var(--font-nunito);
 }
 
 @utility flex-center {

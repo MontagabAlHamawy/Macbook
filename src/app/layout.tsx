@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import { Nunito} from "next/font/google";
 import "@/styles/globals.css";
 import Header from "@/components/layout/Header";
 
-const roboto = Roboto({
-  variable: "--font-roboto",
+const nunito = Nunito({
+  variable: "--font-nunito",
   subsets: ["latin"],
 });
 
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${roboto.variable}`}
+      className={`${nunito.variable}`}
     >
       <body className="">
         <div className="min-h-screen">

@@ -5,7 +5,7 @@ import React from 'react'
 
 export default function Header() {
     return (
-        <header>
+        <header className='z-51!'>
             <nav>
                 <Image src={"/logo.svg"} alt='apple logo' width={40} height={40} />
                 <ul>
