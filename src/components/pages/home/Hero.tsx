@@ -14,8 +14,8 @@ export default function Hero() {
     return (
         <section id='hero'>
             <div>
-                <h1>Mackbook Pro</h1>
-                <Image src={'/title.png'} alt="mackbook title" width={200} height={200} />
+                <h1>Macbook Pro</h1>
+                <Image src={'/title.png'} alt="macbook title" width={200} height={200} />
             </div>
             <video ref={videoRef} src={'/videos/hero.mp4'} autoPlay muted playsInline />
 

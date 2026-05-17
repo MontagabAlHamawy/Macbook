@@ -12,6 +12,7 @@ type PerformanceImgPosition = {
     bottom: number;
     left?: number;
     right?: number;
+    transform?: string;
 };
 
 type Feature = {
@@ -75,7 +76,7 @@ const performanceImgPositions: PerformanceImgPosition[] = [
     {
         id: "p1",
         left: 5,
-        bottom: 65,
+        bottom: 65, 
     },
     {
         id: "p2",
